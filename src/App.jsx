@@ -43,6 +43,9 @@ function App() {
   ];
 
   const writings = [
+    { title: 'Recursive Language Models for RTL Code Generation', date: 'Mar. 2026', link: '/papers/RLM_for_RTL_Code_Generation_Proposal.pdf' },
+    { title: 'Constrained Reflective Thinking for Physically Grounded LLM Planning', date: 'Mar. 2026', link: '#' },
+    { title: 'On-policy Distillation for ASR Optimization', date: 'Jan. 2026', link: '/papers/Streamwise_Technical_Summary.pdf' },
     { title: 'Anytime Planning with Continuous Thought Machines', date: 'Dec. 2025', link: '/papers/Anytime_Planning_with_CTMs.pdf' },
     { title: 'Emotion Recognition with BERT and Naive Bayes', date: '2024', link: '/papers/Emotion_Recognition_BERT_and_Naive_Bayes-1.pdf' },
     { title: 'Image Recognition with CNN and MLP', date: '2024', link: '/papers/Image_Recognition_CNN_and_MLP-1.pdf' },
@@ -78,7 +81,11 @@ function App() {
                 </h1>
                 
                 <p className="text-lg sm:text-xl text-white/70 leading-relaxed max-w-2xl">
-                  M.Sc. Computer Science student at <span className="text-white font-semibold">McGill University</span>, focused on <span className="text-white font-semibold">reinforcement learning</span>, LLMs, robotics, and low-level systems. Co-founder of <span className="text-white font-semibold">Streamwise</span>, an AI startup backed by Next AI and Mila. Motivated by building real products from research ideas.
+                  M.Sc. Computer Science student at <span className="text-white font-semibold">McGill University</span>, focused on reinforcement learning LLMs, and robotics. Founder at <span className="text-white font-semibold">Streamwise</span>, an AI startup backed by <span className="text-white font-semibold">McGill, Next AI and Mila</span>. Motivated by building real products from research ideas.
+                </p>
+
+                <p className="text-lg sm:text-xl text-white/70 leading-relaxed max-w-2xl mt-4">
+                  In my free time, I enjoy travelling, bouldering, filmmaking, skiing, cooking, playing video games, and working on business projects (which often feels like a full-time job).
                 </p>
               </div>
 
@@ -111,7 +118,7 @@ function App() {
               </div>
               
               <h2 className="text-2xl sm:text-3xl font-bold mb-2">Streamwise</h2>
-              <p className="text-sm font-mono text-blue-400 mb-4">Lead Software Engineer / CTO</p>
+              <p className="text-sm font-mono text-blue-400 mb-4">Founder / CTO</p>
 
               <p className="text-white/70 leading-relaxed flex-grow">
                 Architecting a production-grade, low-latency ASR + LLM system for real-time speech moderation in live streaming. Scaling ML inference pipelines to 100+ concurrent users on AWS.
@@ -121,6 +128,8 @@ function App() {
                 <p className="text-xs font-mono text-white/40 uppercase tracking-wider mb-2">Focus Areas</p>
                 <div className="flex flex-wrap gap-2">
                   <span className="text-xs px-2 py-1 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">Real-time ML</span>
+                  <span className="text-xs px-2 py-1 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">ASR</span>
+                  <span className="text-xs px-2 py-1 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">LLM</span>
                   <span className="text-xs px-2 py-1 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">Go Backend</span>
                   <span className="text-xs px-2 py-1 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">AWS / K8s</span>
                 </div>
@@ -140,18 +149,22 @@ function App() {
               </div>
               
               <h2 className="text-2xl sm:text-3xl font-bold mb-2">McGill University</h2>
-              <p className="text-sm font-mono text-purple-400 mb-4">M.Sc. CS (AI/ML) · B.Eng. Software (3.75 GPA)</p>
+              <p className="text-sm font-mono text-purple-400 mb-4">M.Sc. CS (AI/ML) · B.Eng. Software</p>
 
               <p className="text-white/70 leading-relaxed flex-grow">
-                Researching advanced ML and reinforcement learning. Published work on Continuous Thought Machines for decision-making in partially observable environments.
+                Researching in AI and ML, with a focus on reinforcement learning and LLMs. Interests include LLM reasoning and robustness, applications in robotics, speech recognition, computer vision, and generative AI.
               </p>
 
               <div className="mt-6 pt-4 border-t border-white/10">
                 <p className="text-xs font-mono text-white/40 uppercase tracking-wider mb-2">Focus Areas</p>
                 <div className="flex flex-wrap gap-2">
                   <span className="text-xs px-2 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">Reinforcement Learning</span>
+                  <span className="text-xs px-2 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">Large Language Model</span>
+                  <span className="text-xs px-2 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">Robotics</span>
+                  <span className="text-xs px-2 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">ASR</span>
+                  <span className="text-xs px-2 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">Computer Vision</span>
+                  <span className="text-xs px-2 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">Generative AI</span>
                   <span className="text-xs px-2 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">Deep Learning</span>
-                  <span className="text-xs px-2 py-1 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">Research</span>
                 </div>
               </div>
             </div>
@@ -193,21 +206,25 @@ function App() {
                 <ul className="space-y-3 text-white/70">
                   <li className="flex items-start gap-2">
                     <span className="text-amber-400 mt-1">→</span>
-                    <span>Scaling Streamwise's real-time ASR + LLM pipeline on AWS</span>
+                    <span>Scaling my startup @ Streamwise</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-amber-400 mt-1">→</span>
-                    <span>Pursuing M.Sc. in AI/ML at McGill University</span>
+                    <span>Pursuing M.Sc. in AI/ML @ McGill University</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-amber-400 mt-1">→</span>
-                    <span>Drinking way too much espresso</span>
+                    <span>Looking for a Summer/Fall 2026 internship</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-400 mt-1">→</span>
+                    <span>Drinking way too much espresso and matcha</span>
                   </li>
                 </ul>
               </div>
 
               <div className="mt-6 pt-4 border-t border-white/10">
-                <p className="text-xs font-mono text-white/40">Last updated: Feb 2026</p>
+                <p className="text-xs font-mono text-white/40">Last updated: March 2026</p>
               </div>
             </div>
           </div>
@@ -219,17 +236,17 @@ function App() {
               <h3 className="text-2xl font-bold">Research & Papers</h3>
             </div>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="papers-scroll flex gap-4 overflow-x-auto pb-3" style={{scrollbarWidth: 'thin', scrollbarColor: 'rgba(255,255,255,0.2) rgba(255,255,255,0.05)'}}>
               {writings.map((article, idx) => (
                 <a
                   key={idx}
                   href={article.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group/article p-5 rounded-xl border border-white/10 hover:border-white/30 hover:bg-white/5 transition-all duration-300 cursor-pointer block"
+                  className="group/article flex-shrink-0 w-64 p-5 rounded-xl border border-white/10 hover:border-white/30 hover:bg-white/5 transition-all duration-300 cursor-pointer block"
                 >
                   <p className="text-xs font-mono text-white/40 mb-2">{article.date}</p>
-                  <h4 className="font-semibold text-lg leading-snug group-hover/article:text-white transition-colors">
+                  <h4 className="font-semibold text-base leading-snug group-hover/article:text-white transition-colors">
                     {article.title}
                   </h4>
                   <div className="mt-3 flex items-center gap-2 text-white/40 group-hover/article:text-white/60 transition-colors">

@@ -85,6 +85,25 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #333;
   }
+
+  /* Horizontal scrollbar for papers section */
+  .papers-scroll::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  .papers-scroll::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 2px;
+  }
+
+  .papers-scroll::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+  }
+
+  .papers-scroll::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.35);
+  }
 }
 
 /* Glassmorphism effect enhancement */
