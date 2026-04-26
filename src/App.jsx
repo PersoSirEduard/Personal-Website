@@ -44,7 +44,7 @@ function App() {
 
   const writings = [
     { title: 'Recursive Language Models for RTL Code Generation', date: 'Mar. 2026', link: '/papers/RLM_for_RTL_Code_Generation_Proposal.pdf' },
-    { title: 'Constrained Reflective Thinking for Physically Grounded LLM Planning', date: 'Mar. 2026', link: '#' },
+    { title: 'Constrained Reflective Thinking for Physically Grounded LLM Planning', date: 'Mar. 2026', link: '/papers/Constrained_Reflective_Thinking_Grounded_LLM_Planning.pdf' },
     { title: 'On-policy Distillation for ASR Optimization', date: 'Jan. 2026', link: '/papers/Streamwise_Technical_Summary.pdf' },
     { title: 'Anytime Planning with Continuous Thought Machines', date: 'Dec. 2025', link: '/papers/Anytime_Planning_with_CTMs.pdf' },
     { title: 'Emotion Recognition with BERT and Naive Bayes', date: '2024', link: '/papers/Emotion_Recognition_BERT_and_Naive_Bayes-1.pdf' },
@@ -214,7 +214,7 @@ function App() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-amber-400 mt-1">→</span>
-                    <span>Looking for a Summer/Fall 2026 internship</span>
+                    <span>Interning @ Avanade as AI & Data Engineering Intern</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-amber-400 mt-1">→</span>
