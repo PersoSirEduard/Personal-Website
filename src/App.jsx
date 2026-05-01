@@ -43,7 +43,7 @@ function App() {
   ];
 
   const writings = [
-    { title: 'Recursive Language Models for RTL Code Generation', date: 'Mar. 2026', link: '/papers/RLM_for_RTL_Code_Generation_Proposal.pdf' },
+    { title: 'Recursive Language Models for RTL Code Generation', date: 'Mar. 2026', link: '/papers/Recursive_Language_Models_for_RTL_Code_Generation.pdf' },
     { title: 'Constrained Reflective Thinking for Physically Grounded LLM Planning', date: 'Mar. 2026', link: '/papers/Constrained_Reflective_Thinking_Grounded_LLM_Planning.pdf' },
     { title: 'On-policy Distillation for ASR Optimization', date: 'Jan. 2026', link: '/papers/Streamwise_Technical_Summary.pdf' },
     { title: 'Anytime Planning with Continuous Thought Machines', date: 'Dec. 2025', link: '/papers/Anytime_Planning_with_CTMs.pdf' },
