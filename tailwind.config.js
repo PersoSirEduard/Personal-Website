@@ -8,14 +8,20 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        serif: ['"EB Garamond"', 'Georgia', 'serif'],
         sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        mono: ['JetBrains Mono', 'ui-monospace', 'monospace'],
+        mono: ['"IBM Plex Mono"', 'ui-monospace', 'monospace'],
       },
       colors: {
-        background: '#050505',
-      },
-      animation: {
-        blob: 'blob 7s infinite',
+        parchment: '#efe7d6',
+        vellum: '#f7f1e5',
+        rule: '#b9a88f',
+        ink: {
+          DEFAULT: '#2b2622',
+          soft: '#4d443d',
+          faint: '#8a7a6a',
+        },
+        sanguine: '#9a4b32',
       },
     },
   },
