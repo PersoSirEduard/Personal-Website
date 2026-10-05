@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.eduard-anton.com/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.eduard-anton.com/papers/Recursive_Language_Models_for_RTL_Code_Generation.pdf</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.eduard-anton.com/papers/Constrained_Reflective_Thinking_Grounded_LLM_Planning.pdf</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.eduard-anton.com/papers/Streamwise_Technical_Summary.pdf</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.eduard-anton.com/papers/Anytime_Planning_with_CTMs.pdf</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.eduard-anton.com/papers/Emotion_Recognition_BERT_and_Naive_Bayes-1.pdf</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.eduard-anton.com/papers/Image_Recognition_CNN_and_MLP-1.pdf</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.eduard-anton.com/papers/ecse316-burst-out-of-the-behavior-1.pdf</loc>
+    <priority>0.6</priority>
+  </url>
+</urlset>
